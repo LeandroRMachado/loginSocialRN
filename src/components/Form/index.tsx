@@ -19,7 +19,7 @@ export function Form() {
 
   async function handleGoogleSignIn() {
     try {
-     const CLIENT_ID = "287205682160-coregmooq1f482m2v3pmkpvlijmm3sl0.apps.googleusercontent.com"
+     const CLIENT_ID = ""
      const REDIRECT_URI = "https://auth.expo.io/@leandromachado/formapp"
      const RESPONSE_TYPE = "token"
      const SCOPE = encodeURI("profile email")
